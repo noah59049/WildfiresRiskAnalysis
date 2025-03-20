@@ -172,3 +172,8 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+.DS_Store
+PredictorVariables/climate_merged.csv
+LandCoverRasters/Annual_NLCD_LndCov_2023_CU_C1V0.tif
+LandCoverRasters/tl_2023_us_county/

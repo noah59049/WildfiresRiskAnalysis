@@ -1,0 +1,29 @@
+---
+title: "TIFExplorer"
+author: "Noah Holbrook"
+date: "2025-03-05"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+pacman::p_load(terra)
+```
+
+``` {r viewer}
+my_raster <- rast("Annual_NLCD_LndCov_2023_CU_C1V0.tif")
+```
+
+``` {r}
+plot(my_raster)
+```
+
+``` {r}
+min(my_raster)
+````
+
+``` {r}
+crs(my_raster,proj=TRUE)
+```
+
+
